@@ -1,0 +1,17 @@
+{
+  "name": "desafio-tray",
+  "version": "1.0.0",
+  "description": "Projeto para testar o cadastro e acesso de usuários na página Seu Barriga",
+  "main": "index.js",
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "Tiago Paulo do Nascimento",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.13.2"
+  }
+}
